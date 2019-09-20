@@ -1,6 +1,6 @@
 {
-  "env:Envelope": {
-    "env:Body": {
+  "Envelope": {
+    "Body": {
       "analyzeReturn": {
         "identificationData": {
           "orgName": "grupoApps1",
@@ -41,7 +41,7 @@
                     },
                     {
                       "name": "name3",
-                      "value": "value4"
+                      "value": "value3"
                     }
         ]
       }
