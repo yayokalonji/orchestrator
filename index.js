@@ -10,19 +10,19 @@ app.get('/', function(req, res) {
     res.json('Hello World!');
 });
 
-app.get('/orchestrator/analize', function(req, res) {
+app.get('/analize', function(req, res) {
     res.status(200).json(jsonData);
 });
 
-app.get('/orchestrator/markcase', function(req, res) {
+app.get('/markcase', function(req, res) {
     res.status(200).json({message:'OK'});
 });
 
-app.get('/orchestrator/nofify', function(req, res) {
+app.get('/nofify', function(req, res) {
     res.status(200).json({message:'OK'});
 });
 
-app.get('/orchestrator/invaliduser', function(req, res) {
+app.get('/invaliduser', function(req, res) {
     res.status(200).json({message:'OK'});
 });
 
